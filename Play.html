@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Дурак</title>
+<link rel="stylesheet" href="css/Styles.css">
+<link rel="stylesheet" href="css/Play.css">
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+<main class="tbl">
+<div class="hand bot" id="bot"></div>
+<div class="mid">
+<div class="deck">
+<div class="card trump" id="trump"></div>
+<div class="pile" id="pile"></div>
+<div class="suit" id="suit"></div>
+</div>
+<div class="field" id="field"></div>
+</div>
+<div class="msg" id="msg"></div>
+<div class="hand" id="me"></div>
+<button class="act" id="act" type="button" hidden>Бито</button>
+</main>
+<div class="end" id="end" hidden>
+<p id="endText"></p>
+<a id="leave" href="Fool.html">Выйти</a>
+</div>
+<script src="js/Games.js"></script>
+<script src="js/Play.js"></script>
+</body>
+</html>

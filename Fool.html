@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Дурак</title>
+<link rel="stylesheet" href="css/Styles.css">
+<link rel="stylesheet" href="css/Fool.css">
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+<button class="info" id="infoBtn" type="button" aria-expanded="false" aria-controls="rules" aria-label="Правила">!</button>
+
+<div class="rules" id="rules" hidden>
+<ul>
+<li>Колода 36 карт, от 2 до 6 игроков, каждому по 6 карт. Последняя карта колоды определяет козырь.</li>
+<li>Атакующий кладёт карту, защищающийся бьёт её старшей картой той же масти или козырем.</li>
+<li>Атакующий может подкидывать карты того же достоинства, что уже лежат на столе.</li>
+<li>Не смог отбиться — забираешь все карты со стола. После хода все добирают карты до 6.</li>
+<li>Кто останется с картами последним, тот дурак.</li>
+</ul>
+</div>
+
+<main class="list" id="gamesList">
+<p class="empty">Игр пока нет</p>
+</main>
+
+<footer class="bar">
+<a class="add" href="Nemgamefool.html" aria-label="Создать игру">+</a>
+</footer>
+
+<script src="js/Games.js"></script>
+<script src="js/Fool.js"></script>
+</body>
+</html>
